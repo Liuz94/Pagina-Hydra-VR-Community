@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --size: 120px;
+    --font-size: 4rem;
+}
+
+body {
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: rgb(67, 61, 96);
+    background: radial-gradient(circle, rgba(67, 61, 96, 1) 0%, rgba(33, 30, 46, 1) 130%);
+    display: grid;
+    padding-top: 30px;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
+li{
+    list-style: none;
+}
+
+.header_nav>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/*Botonoes header*/
+.grip{
+    display: flex;
+    align-items: center;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 102px;
+    height: 103px;
+}
+
+.header_nav{
+    margin-left: 180px;
+}
+
+.header_nav>li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.logo_letras{
+    width: 76px;
+    height: 46px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.header_botones{
+    margin-left: 75px;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.CONTAC,
+.JOIN{
+    margin-left: 30px;
+}
+
+.CONTAC, .JOIN, .boton_build{
+    width: 11em;
+    height: 48px;
+    border-radius: 40px;
+    font-size: 0.8em;
+}
+
+.CONTAC{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-weight: 900;
+}
+.JOIN, .boton_build{
+    color: #343045;
+    border-width: 0;
+    font-weight: 900;
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
+}
+
+/*Intoduccion*/
+
+.titulo_desc{
+    color: #FFFFFF;
+    font-size: 2.7em;
+}
+
+.degradado{
+    background: -webkit-linear-gradient(20deg,rgba(192, 183, 232, 1), rgba(129, 118, 175, 1));
+    -webkit-background-clip: text;
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    color: rgb(192, 183, 232);
+}
+
+.desc{
+    color: #FFFFFF;
+    width: 470px;
+}
+
+.boton_build{
+    width: 230px;
+}
+
+.flecha{
+    width: 40px;
+}
+
+/*Imagen*/
+
+.imgen_chica{
+    width: 450px;
+    height: 400px;
+    border-radius: 25% 25% 25% 50%;
+    box-shadow: 0px 0px 0px 15 rgba(0, 0, 0, 0.20);
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.20);
+}
+
+/*Desctipcion inicial*/
+.conteiner_main{
+    display: flex;
+    width: auto;
+    margin-top: 50px;
+}
+
+.conteiner_desc{
+    display: flex;
+    align-content: flex-start;
+    justify-content: left;
+    align-items: center;
+    height: 450px;
+}
+
+.desc{
+    margin-top: 30px;
+}
+
+.boton_flecha{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+
+.flecha{
+    margin-left: 30px;
+}
+
+.imagen_portada{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 220px;
+}
+
+/*Cotacto*/
+.conteiner_contac{
+    border-radius: 8em;
+    background: rgb(58, 52, 86);
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 100%);
+}
+
+.logo_contact>object {
+    width: 50px;
+}
+
+.desc_contact > h3 {
+    color: #FFFFFF;
+    font-size: 1.2em;
+
+}
+
+.desc_contact> p {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    
+}
+
+.location, .call, .mail{
+    display: inline-block;
+    width: 330px;
+    height: 100px;
+    padding-top: 40px;
+    padding-left:  60px;
+
+}
+.call{
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0.1em;
+    border-bottom-width: 0px;
+    border-left-width: 0.1em;
+    border-image: radial-gradient(transparent 20%, rgba(192, 183, 232, 0.33) 21%,rgba(192, 183, 232, 0.33) 89%, transparent 90%) 1;
+}
+
+.logo_contact,
+.desc_contact {
+    display: inline-block;
+    padding-top: auto;
+}
+
+.logo_contact{
+    vertical-align: middle;
+}
+
+.desc_contact{
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.desc_contact > p{
+    padding-top: 5px;
+}
